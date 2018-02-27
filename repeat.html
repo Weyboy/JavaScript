@@ -1,4 +1,23 @@
-Repeat
-<p>Make function <code>repeat</code> that takes a string and a number as parameters and returns the string repeated number times separated every time by an empty space " ". </p>
+<!DOCTYPE html>
+<html>
+<head>
+<title>repeat</title>
+<script>
+function repeat(times, rtext){
 
-<p>Embed the code in an HTML page and print the return value of the function call <code>repeat("I will not disturb in class!", 100)</code> using, for instance, <code>document.write() </code> function.</p>
+  for(i=0;i<times;i++){
+    text+= rtext+"<br/>";
+  }
+  return text
+}
+
+</script>
+</head>
+
+<body>
+<script>
+// Call the function laugh(some number). Use document.write to see the result on the page.
+document.writte(repeat(63,"WAKANDA FOREVER."));
+</script>
+</body>
+</html>
