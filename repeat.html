@@ -2,13 +2,14 @@
 <html>
 <head>
 <title>repeat</title>
+<link rel="stylesheet" type="text/css" href="myStyles.css">
 <script>
 function repeat(times, rtext){
-
-  for(i=0;i<times;i++){
+var text="test";
+  for(var i=0;i<times;i++){
     text+= rtext+"<br/>";
   }
-  return text
+  return text;
 }
 
 </script>
@@ -18,7 +19,7 @@ function repeat(times, rtext){
 <h1>repeat after me</h1>
 <script>
 // Call the function laugh(some number). Use document.write to see the result on the page.
-document.write(repeat(63,"WAKANDA FOREVER."));
+document.write(repeat(63,"WAKANDA IS MY KINGDOM 4EVA."));
 </script>
 </body>
 </html>
